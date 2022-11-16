@@ -96,4 +96,7 @@ class Utility() {
         }
         return -1
     }
+    fun removeChar(string: String , Char_to_remove : String):String{
+        return string.replace(Char_to_remove, "")
+    }
 }
